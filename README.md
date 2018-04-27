@@ -7,7 +7,7 @@ Run Kafkabeat in Docker.
 ### Requirements
 ```sh
 1.Need to run Zookeeper,Kafka and elasticsearch in the same container.
-2.Put Dokerfile and kafkabeat.yml in same directory and Run following command
+2.Put Dockerfile and kafkabeat.yml in same directory and Run following command
 ```
 ### Building on GCP
 ```sh
@@ -27,7 +27,6 @@ kubectl run kafkabeat --image gcr.io/<Google Cloud Project name>/kafkabeat:1.0.0
 
 
 ### other useful command
-
 ```sh
 Check images
 docker images
